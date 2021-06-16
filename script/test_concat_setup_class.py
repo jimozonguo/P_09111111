@@ -52,7 +52,7 @@ class TestConcat(object):
         #方法1
         ret=self.page_concat.is_toast_exist(message="已保存",is_screenshot=True,screenshot_name=key)
         #把截到的截图嵌入到Allure测试报告
-        allure.attach(open('./screen/' + key + '.png', 'rb').read(), "步骤8：本次截图", allure.attachment_type.PNG)
+        #allure.attach(open('./screen/' + key + '.png', 'rb').read(), "步骤8：本次截图", allure.attachment_type.PNG)
         # 8.还原到业务刚开始的UI
         self.driver.keyevent(4);
         time.sleep(2)
