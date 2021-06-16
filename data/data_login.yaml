@@ -1,0 +1,17 @@
+test_login_001: #大情况1
+  K001:
+    zanhao: "13760453683"
+    pwd: "JIMOqinyu319"
+    yuqi: "授权"
+  K002:
+    zanhao: "13762456715"
+    pwd: "1234563"
+    yuqi: "用户名或密码错误"
+
+test_login_002: #大情况2
+  K003:
+    zanhao: ""
+    pwd: "1234567"
+  K004:
+    zanhao: "13760453683"
+    pwd: ""

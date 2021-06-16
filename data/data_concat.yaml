@@ -1,0 +1,15 @@
+test_concat_001:
+  K001:
+    name: "张三"
+    phone: "13760453683"
+    company: "深圳大爸爸公司"
+    website: "http://anc.com"
+  K002:
+    name: "李四"
+    phone: "13760453684"
+    company: "深圳小爸爸公司"
+    website: "http://abc.com"
+
+
+
+
